@@ -93,7 +93,7 @@ You’ll see logs like:
 
 ### 📜 License
 
-This is a binary-only research release for reviewers and collaborators. Can not be used currently for an commercial purposes. There are headless formats and other flags that can be added for research.
+This is a binary-only research release for reviewers and collaborators. Can not be used currently for any commercial purposes. There are headless formats and other flags that can be added for research.
 
 All source code is withheld under internal license.
 
