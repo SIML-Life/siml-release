@@ -20,36 +20,40 @@ You can download all the files in the [latest release](https://github.com/SIML-L
 
 # 🚀 Quick Start (Visualization Required)
 
-## Step 1: Install [Godot 4.4.1](https://godotengine.org/download)
+--
+
+### 🧠 Visualizer (Godot-based)
+
+**macOS Only**
+- Download and double click on `siml-visualizer-macos.dmg`
+- Right-click `.app` → "Open" → bypass Apple Gatekeeper if needed
+- Double click the `godot-command` file that opens
+- Requires macOS 12+ with Apple Silicon
+
+**Linux and Windows**
+
+#### Install [Godot 4.4.1](https://godotengine.org/download)
 
 Make sure it's the **same version** used to export the `.pck` (e.g., Godot 4.4.1+).
 
-## Step 2: Run the Visualizer
+| OS      | File                 | Instructions                       |
+|---------|----------------------|------------------------------------|
+| Linux   | `godot_visualizer.pck`     | `./path-to-Godot-executable --main-pack godot_visualizer.pck` |
+| Windows | `godot_visualizer.pck` | `./path-to-Godot-executable.exe --main-pack godot_visualizer.pck` |
 
-From terminal or PowerShell:
+---
 
-#### Linux
-```bash
-./Godot --main-pack godot_visualizer.pck
-```
-#### Windows
-```
-Godot.exe --main-pack godot_visualizer.pck
-```
-#### macOS
-```
-/Applications/Godot.app/Contents/MacOS/Godot --main-pack godot_visualizer.pck
-```
+### ⚙️ SIML Binaries
 
-## Step 3: Run the SIML Agent
+Choose your platform and run the binary from the terminal:
 
-### 🧠 SIML Command Line Usage
+| OS      | File                 | Instructions                       |
+|---------|----------------------|------------------------------------|
+| macOS   | `siml-apple-silicon` | `chmod +x siml-apple-silicon && ./siml-apple-silicon` |
+| Linux   | `siml-linux-x64`     | `chmod +x siml-linux-x64 && ./siml-linux-x64` |
+| Windows | `siml-windows-x64.exe` | Double-click to run or use PowerShell |
 
-Once you've downloaded the correct `siml` binary for your platform, you can run the simulation via:
-
-```bash
-./siml-[platform] [OPTIONS]
-```
+---
 
 ### Available Flags
 
@@ -67,21 +71,6 @@ Once you've downloaded the correct `siml` binary for your platform, you can run 
 
 The simulator will save a `.bin` file to record your runs, and start over with the saved `.bin` every time. If you want to start from scratch again, simply rename or remove the `.bin`. 
 
-For platform specific binaries, in a second terminal window:
-
-#### Linux
-```bash
-./siml-linux-x64
-```
-#### Windows
-```
-.\siml-windows-x64.exe
-```
-#### macOS
-```
-chmod +x siml-apple-silicon
-./siml-apple-silicon
-```
 
 ### Logs
 You’ll see logs like:
