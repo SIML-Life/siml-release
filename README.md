@@ -8,6 +8,8 @@ This release includes cross-platform binaries and a Godot visualizer for the SIM
 
 ## 🐛 Contents
 
+You can download all the files in the [latest release](https://github.com/SIML-Life/siml-release/releases/tag/v.0.1).
+
 - `siml-linux-x64` – Linux binary
 - `siml-windows-x64.exe` – Windows binary
 - `siml-apple-silicon` – macOS (M1+) binary
@@ -38,7 +40,6 @@ Godot.exe --main-pack godot_visualizer.pck
 ```
 /Applications/Godot.app/Contents/MacOS/Godot --main-pack godot_visualizer.pck
 ```
-You can also drag & drop `godot_visualizer.pck` onto the Godot executable.
 
 ## Step 3: Run the SIML Agent
 
