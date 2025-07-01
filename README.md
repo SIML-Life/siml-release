@@ -1,5 +1,7 @@
 # SIML Worm Agent Release
 
+![SIML Sample Video](images/siml-run.gif)
+
 This release includes cross-platform binaries and a Godot visualizer for the SIML artificial worm simulation from the following paper:
 
 [Artificial Intelligence is for Amateurs: SIML, Free Energy Principle and Cognogenics as the Foundations Toward the Birth of True Artificial Life](https://www.siml.life/research/Artificial-Intelligence-is-for-Amateurs)
