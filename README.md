@@ -27,9 +27,15 @@ You can download all the files in the [latest release](https://github.com/SIML-L
 ### 🧠 Visualizer (Godot-based)
 
 **macOS Only**
-- Download and double click on `siml-visualizer-macos.dmg`
+- Download and double click on `apple-silicon.zip`
 - Right-click `.app` → "Open" → bypass Apple Gatekeeper if needed
-- Double click the `godot-command` file that opens
+- Extract both files
+- In the command line, we need to set up sandbox to run the files with this command since we didn't pay $99 for an Apple Developer Account:
+```
+xattr -dr com.apple.quarantine siml-visualizer-macos.dmg
+xattr -dr com.apple.quarantine siml-apple-silicon
+```
+- Double click the `siml-visualizer-macos.dmg` file, and click on the `godot-command` file that opens
 - Requires macOS 12+ with Apple Silicon
 
 **Linux and Windows**
