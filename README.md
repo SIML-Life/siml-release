@@ -15,7 +15,7 @@ You can download all the files in the [latest release](https://github.com/SIML-L
 - `siml-linux-x64` – Linux binary
 - `siml-windows-x64.exe` – Windows binary
 - `siml-apple-silicon` – macOS (M1+) binary
-- `godot_visualizer.pck` – Godot 4.4.1 visualizer (platform-independent)
+- `siml_visualizer.pck` – Godot 4.4.1 visualizer (platform-independent)
 - `README.md` – You're reading it
 
 ---
@@ -46,8 +46,8 @@ Make sure it's the **same version** used to export the `.pck` (e.g., Godot 4.4.1
 
 | OS      | File                 | Instructions                       |
 |---------|----------------------|------------------------------------|
-| Linux   | `godot_visualizer.pck`     | `./path-to-Godot-executable --main-pack godot_visualizer.pck` |
-| Windows | `godot_visualizer.pck` | `./path-to-Godot-executable.exe --main-pack godot_visualizer.pck` |
+| Linux   | `siml_visualizer.pck`     | `./path-to-Godot-executable --main-pack siml_visualizer.pck` |
+| Windows | `siml_visualizer.pck` | `./path-to-Godot-executable.exe --main-pack siml_visualizer.pck` |
 
 ---
 
